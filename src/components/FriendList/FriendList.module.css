@@ -1,0 +1,35 @@
+.friend_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.friendListItem {
+  border: 2px solid #1c1c1c;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #e4e1e1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.avatar {
+  width: 80px;
+}
+
+.name {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.status {
+  margin: 0;
+  font-size: 14px;
+}
